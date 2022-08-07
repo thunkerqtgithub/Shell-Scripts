@@ -1,6 +1,6 @@
 #!/opt/homebrew/bin/bash
 # download youtube songs and convert to mp3
-# drop songs.txt into ~/DropFile
+# drop songs.txt into folder action ~/DropFile
 
 DROPPATH="/Users/USER/DropFile"
 SONGS_PATH="/Users/USER/Downloads/youtube-dl/songs"
@@ -34,7 +34,7 @@ fi
 
 #--------------------------------------------------
 # download youtube videos
-# drop videos.txt into ~/DropFile
+# drop videos.txt into folder action ~/DropFile
 
 if [[ -f "$VIDEOS" && "$VIDEOS_COUNT" -gt 0 ]]; then
 for j in $(cat "$VIDEOS"); do
