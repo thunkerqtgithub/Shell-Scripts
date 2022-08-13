@@ -1,4 +1,3 @@
-added change11
 #!/opt/homebrew/bin/bash
 # runs daily 9:30am
 
