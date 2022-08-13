@@ -1,4 +1,3 @@
-this is another test
 #!/opt/homebrew/bin/bash
 # runs daily 9:30am
 
