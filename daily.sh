@@ -1,5 +1,3 @@
-hotfix
-
 #!/opt/homebrew/bin/bash
 # runs daily 9:30am
 
